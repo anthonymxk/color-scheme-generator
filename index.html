@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Color Palette Generator</h1>
+        <h4>Anthony Keller</h4>
+    </div>
+
+    <div id="main">
+        <!-- option selector, generate button-->
+        <div id="buttonbox">
+        <!--
+            <div>
+                <input type="radio" id="monochromatic" name="type" value="monochromatic">
+                <label for="monochromatic">Monochromatic</label>
+                <input type="radio" id="analogous" name="type" value="Analogous">
+                <label for="analagous">Analogous</label>
+                <input type="radio" id="complementary" name="type" value="complementary">
+                <label for="complementary">Complementary</label>
+                <input type="radio" id="split-complementary" name="type" value="split-complementary">
+                <label for="split-complementary">Split Complementary</label>
+                <input type="radio" id="triadic" name="type" value="triadic">
+                <label for="triadic">Triadic</label>
+            </div>
+        -->
+            <button id="button">Generate</button>
+        </div>
+        <!--palette-->
+        <div id="box">
+            <div id="upper-box">
+                <div class="palette" id="one">
+                    <h5 id="valueOne"></h5>
+                </div>
+                <div class="palette" id ="three">
+                    <h5 id ="valueThree"></h5>
+                </div>
+                <div class="palette" id="five">
+                    <h5 id="valueFive"></h5>
+                </div>
+            </div>
+
+            <div id="lower-box">
+                <div class="palette" id="two">
+                    <h5 id="valueTwo"></h5>
+                </div>
+                <div class="palette" id="four">
+                    <h5 id="valueFour"></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
